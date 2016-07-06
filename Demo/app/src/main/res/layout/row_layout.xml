@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:textStyle="bold"
+        style="@style/listText"
+        />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        style="@style/listText"
+        />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        style="@style/listText"
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        style="@style/listText"
+        />
+
+
+</LinearLayout>
