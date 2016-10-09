@@ -1,4 +1,4 @@
-package rohan27.demo;
+package rohan27.Chase_It;
 
 import android.app.Activity;
 import android.content.Context;
@@ -20,10 +20,10 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import static rohan27.demo.Constants.FIRST_COLUMN;
-import static rohan27.demo.Constants.FOURTH_COLUMN;
-import static rohan27.demo.Constants.SECOND_COLUMN;
-import static rohan27.demo.Constants.THIRD_COLUMN;
+import static rohan27.Chase_It.Constants.FIRST_COLUMN;
+import static rohan27.Chase_It.Constants.FOURTH_COLUMN;
+import static rohan27.Chase_It.Constants.SECOND_COLUMN;
+import static rohan27.Chase_It.Constants.THIRD_COLUMN;
 
 //  vvv imp - do not extend listactivity here. Extend activity
 // and then set the adapters within the class like you did

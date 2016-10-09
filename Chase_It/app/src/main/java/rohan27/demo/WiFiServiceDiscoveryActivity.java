@@ -1,4 +1,4 @@
-package rohan27.demo;
+package rohan27.Chase_It;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -31,8 +31,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import rohan27.demo.WiFiChatFragment.MessageTarget;
-import rohan27.demo.WiFiDirectServicesList.DeviceClickListener;
+import rohan27.Chase_It.WiFiChatFragment.MessageTarget;
+import rohan27.Chase_It.WiFiDirectServicesList.DeviceClickListener;
 
 public class WiFiServiceDiscoveryActivity extends Activity implements
         DeviceClickListener, Handler.Callback, WiFiChatFragment.MessageTarget,
