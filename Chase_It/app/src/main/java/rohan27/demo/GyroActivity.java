@@ -189,7 +189,7 @@ public class GyroActivity extends AppCompatActivity implements SensorEventListen
         monsterBallView.invalidate();
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-
+        /*
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
             mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_GAME_ROTATION_VECTOR);
         }
@@ -204,7 +204,9 @@ public class GyroActivity extends AppCompatActivity implements SensorEventListen
             Log.i(TAG, s.toString());
 
 
-        if(mSensor == null) { //we don't have a relevant sensor
+        if(mSensor == null) {
+        */
+        //we don't have a relevant sensor
             Log.v(TAG, "Switching to accelerometer");
             ((SensorManager)getSystemService(Context.SENSOR_SERVICE)).registerListener(
                     new SensorEventListener() {
@@ -228,7 +230,7 @@ public class GyroActivity extends AppCompatActivity implements SensorEventListen
 
             //finish();
 
-        }//Accelerometer
+        //}//Uncomment if you uncomment the above rotation vector thing
 
     } //OnCreate
 
