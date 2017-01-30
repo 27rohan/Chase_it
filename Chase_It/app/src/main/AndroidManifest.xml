@@ -57,12 +57,15 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity
             android:name=".LoseActivity"
+            android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".WinActivity"
+            android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HighScoreActivity"
+            android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
